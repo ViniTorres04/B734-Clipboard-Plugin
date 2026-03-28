@@ -8,24 +8,27 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        # Aqui ele cria duas máquinas: uma Windows e uma Mac
+        # Cria máquinas virtuais para Windows e Mac
         os: [windows-latest, macos-latest]
 
     steps:
       - name: Checkout code
+        # Atualizado para v4
         uses: actions/checkout@v4
 
       - name: Configure CMake
-        # O comando do CMake que já configuramos antes
+        # Se sua pasta SDK estiver dentro do repositório, o CMake vai encontrá-la
         run: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 
       - name: Build Plugin
         run: cmake --build build --config Release
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v4  # <--- AGORA ESTÁ CERTO
+        # Atualizado para v4 (Resolve o erro do print)
+        uses: actions/upload-artifact@v4
         with:
           name: plugin-${{ matrix.os }}
           path: |
             build/Release/*.xpl
             build/*.xpl
+            build/*/*.xpl

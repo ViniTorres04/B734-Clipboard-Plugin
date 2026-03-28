@@ -31,4 +31,4 @@ jobs:
           path: |
             build/Release/*.xpl
             build/*.xpl
-            build/*/*.xpl
+            build/*/*.xpl 

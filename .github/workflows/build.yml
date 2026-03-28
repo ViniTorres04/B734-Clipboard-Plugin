@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Configure CMake
         # O comando do CMake que já configuramos antes
@@ -23,8 +23,7 @@ jobs:
         run: cmake --build build --config Release
 
       - name: Upload Artifact
-        # Isso faz o GitHub te entregar o arquivo .xpl pronto no final
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4  # <--- AGORA ESTÁ CERTO
         with:
           name: plugin-${{ matrix.os }}
           path: |

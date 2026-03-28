@@ -1,7 +1,11 @@
-#include "XPLMPlugin.h"
+#define XPLM200
+#define XPLM210
+#include "XPLMDefs.h"
+#include "XPLMDisplay.h"
+#include "XPLMGraphics.h"
+#include "XPLMUtilities.h"
 #include "XPLMDataAccess.h"
-#include "XPLMUtilities.h"  // <--- ESSA LINHA É ESSENCIAL
-#include <string.h>
+// ... outros includes
 
 // Variáveis globais
 XPLMDataRef gClipboardDataRef = NULL;

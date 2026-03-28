@@ -1,0 +1,14 @@
+﻿  Custom-Command-with-Custom-DataRef.cpp
+D:\Vinicius\Downloads Vini\ARQUIVS BAIXADOS\X-PLANE sdk\Custom-Command-with-Custom-DataRef.cpp(1,9): warning C4005: 'XPLM200': redefinição de macro
+      D:\Vinicius\Downloads Vini\ARQUIVS BAIXADOS\X-PLANE sdk\Custom-Command-with-Custom-DataRef.cpp(1,9):
+      'XPLM200' declarado anteriormente na linha de comando
+  
+D:\Vinicius\Downloads Vini\ARQUIVS BAIXADOS\X-PLANE sdk\Custom-Command-with-Custom-DataRef.cpp(2,9): warning C4005: 'XPLM210': redefinição de macro
+      D:\Vinicius\Downloads Vini\ARQUIVS BAIXADOS\X-PLANE sdk\Custom-Command-with-Custom-DataRef.cpp(2,9):
+      'XPLM210' declarado anteriormente na linha de comando
+  
+D:\Vinicius\Downloads Vini\ARQUIVS BAIXADOS\X-PLANE sdk\Custom-Command-with-Custom-DataRef.cpp(21,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Vinicius\Downloads Vini\ARQUIVS BAIXADOS\X-PLANE sdk\Custom-Command-with-Custom-DataRef.cpp(22,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Vinicius\Downloads Vini\ARQUIVS BAIXADOS\X-PLANE sdk\Custom-Command-with-Custom-DataRef.cpp(23,5): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     Criando biblioteca .\Debug\64\Custom-Command-with-Custom-DataRef.lib e objeto .\Debug\64\Custom-Command-with-Custom-DataRef.exp
+  Custom-Command-with-Custom-DataRef.vcxproj -> D:\Vinicius\Downloads Vini\ARQUIVS BAIXADOS\X-PLANE sdk\Debug\plugins\Custom-Command-with-Custom-DataRef\64\win.xpl

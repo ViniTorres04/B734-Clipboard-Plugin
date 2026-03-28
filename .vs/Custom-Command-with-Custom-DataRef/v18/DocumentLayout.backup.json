@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\Vinicius\\Downloads Vini\\ARQUIVS BAIXADOS\\X-PLANE sdk\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AEF81E13-B1B7-837A-D1DD-BE591E3B8832}|Custom-Command-with-Custom-DataRef.vcxproj|D:\\Vinicius\\Downloads Vini\\ARQUIVS BAIXADOS\\X-PLANE sdk\\Clipboard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{AEF81E13-B1B7-837A-D1DD-BE591E3B8832}|Custom-Command-with-Custom-DataRef.vcxproj|solutionrelative:Clipboard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{AEF81E13-B1B7-837A-D1DD-BE591E3B8832}|Custom-Command-with-Custom-DataRef.vcxproj|D:\\Vinicius\\Downloads Vini\\ARQUIVS BAIXADOS\\X-PLANE sdk\\Custom-Command-with-Custom-DataRef.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{AEF81E13-B1B7-837A-D1DD-BE591E3B8832}|Custom-Command-with-Custom-DataRef.vcxproj|solutionrelative:Custom-Command-with-Custom-DataRef.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Clipboard.cpp",
-              "DocumentMoniker": "D:\\Vinicius\\Downloads Vini\\ARQUIVS BAIXADOS\\X-PLANE sdk\\Clipboard.cpp",
-              "RelativeDocumentMoniker": "Clipboard.cpp",
-              "ToolTip": "D:\\Vinicius\\Downloads Vini\\ARQUIVS BAIXADOS\\X-PLANE sdk\\Clipboard.cpp",
-              "RelativeToolTip": "Clipboard.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAABAAAAAAAAAA==",
+              "Title": "Custom-Command-with-Custom-DataRef.cpp",
+              "DocumentMoniker": "D:\\Vinicius\\Downloads Vini\\ARQUIVS BAIXADOS\\X-PLANE sdk\\Custom-Command-with-Custom-DataRef.cpp",
+              "RelativeDocumentMoniker": "Custom-Command-with-Custom-DataRef.cpp",
+              "ToolTip": "D:\\Vinicius\\Downloads Vini\\ARQUIVS BAIXADOS\\X-PLANE sdk\\Custom-Command-with-Custom-DataRef.cpp",
+              "RelativeToolTip": "Custom-Command-with-Custom-DataRef.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-08T00:36:10.32Z",
+              "WhenOpened": "2026-03-28T23:32:09.42Z",
               "EditorCaption": ""
             }
           ]

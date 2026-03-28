@@ -1,0 +1,8 @@
+// Arquivos de dica ajudam o Visual Studio IDE a interpretar identificadores do Visual C++
+// por exemplo, nomes de funções e macros.
+// Para obter mais informações, consulte https://go.microsoft.com/fwlink/?linkid=865984
+#define PLUGIN_API extern "C" __attribute__((visibility("default")))
+#define PLUGIN_API
+#define PLUGIN_API extern "C" __declspec(dllexport)
+#define PLUGIN_API __attribute__((visibility("default")))
+#define PLUGIN_API __declspec(dllexport)
